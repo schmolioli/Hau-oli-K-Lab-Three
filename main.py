@@ -14,6 +14,11 @@ def multi(x,y):
 def div(x,y):
     print(x/y)
 #################################################
+#Start of program
+print("welcome to the calc")
+print("what would u like to do")
+print("select: (a)dd (s)ubtract (m)ultiply (d)ivide (q)uit")
+
 
 x=int(input("Enter your first number: "))
 y=int(input("Enter your second number: "))
