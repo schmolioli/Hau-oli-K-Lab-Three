@@ -1,18 +1,30 @@
 # this function adds two numbers
 def add(x,y):
-    print(x+y)
+    result = x + y
+    print(result)
+    if result == 67:
+        print("haha")
 
 # this function subtracts two numbers
 def sub(x,y):
-    print(x-y)
+    result = x - y
+    print(result)
+    if result == 67:
+        print("haha")
 
 # this function multiplies two numbers
 def multi(x,y):
-    print(x*y)
+    result = x * y
+    print(result)
+    if result == 67:
+        print("haha")
 
 # this function divides two numbers
 def div(x,y):
-    print(x/y)
+    result = x / y
+    print(result)
+    if result == 67:
+        print("haha")
 #################################################
 #Start of program
 
