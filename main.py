@@ -15,15 +15,36 @@ def div(x,y):
     print(x/y)
 #################################################
 #Start of program
+
 print("welcome to the calc")
-print("what would u like to do")
-print("select: (a)dd (s)ubtract (m)ultiply (d)ivide (q)uit")
+while(True):
+    print(" what would u like to do")
+    print("select: (a)dd (s)ubtract (m)ultiply (d)ivide (q)uit")
 
+    user_choice=input(": ")
+    if user_choice =='a':
+        x=int(input("Enter your first number: "))
+        y=int(input("Enter your second number: "))
+        add(x,y)
 
-x=int(input("Enter your first number: "))
-y=int(input("Enter your second number: "))
+    elif user_choice == 's':
+        x=int(input("Enter your first number: "))
+        y=int(input("Enter your second number: "))
+        sub(x,y)
 
-add(x,y)
-sub(x,y)
-multi(x,y)
-div(x,y)
+    elif user_choice == 'm':
+        x=int(input("Enter your first number: "))
+        y=int(input("Enter your second number: "))
+        multi(x,y)
+
+    elif user_choice == 'd':
+        x=int(input("Enter your first number: "))
+        y=int(input("Enter your second number: "))
+        div(x,y)
+
+    elif user_choice == 'q':
+        print("Closing Program...")
+        break
+
+    else:
+        print("That isn't one of the options silly!")
